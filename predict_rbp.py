@@ -1,7 +1,6 @@
 # ===============================================================
 # predict_rbp.py
 #
-# PUBLIC SCRIPT - what other users run.
 #
 # Given a CSV with the 5 base features (SASA, ConSurf, Concavity,
 # pool rank normalized, PPrint Score) plus amino acid, protein
@@ -14,8 +13,6 @@
 #      saved lookup table
 #   5) runs your trained model and outputs predictions
 #
-# No train/test split here - this is inference only. The user's
-# data is not expected to have labels.
 #
 # REQUIREMENTS:
 #   pip install fair-esm torch pandas numpy scikit-learn joblib imbalanced-learn
