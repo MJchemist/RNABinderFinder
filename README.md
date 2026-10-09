@@ -4,7 +4,7 @@ Predicts RNA-binding residues in proteins using an RBF-kernel SVM trained on
 six structural/sequence features plus ESM-2 protein-language-model
 embeddings, reduced via PCA.
 
-Validated on a 24-protein held-out test set: **MCC = 0.626, ROC-AUC = 0.943,
+Validated on a 24-protein held-out test set: **MCC = 0.620, ROC-AUC = 0.943,
 PR-AUC = 0.653**.
 
 ## Repository layout
