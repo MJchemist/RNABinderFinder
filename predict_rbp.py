@@ -45,12 +45,12 @@ AA3_TO_AA1 = {
 ESM_LAYER = 33
 ESM_EMBED_DIM = 1280
 
-# Selected via evaluate_at_thresholds() -> best_MCC, on the held-out test set
+# Selected via evaluate_at_thresholds() -> best_MCC, on CV out-of-fold prediction only
 # for the winning config (raw propensity, PCA-300, duplication 1:4).
 # sklearn's .predict() default of 0.5 is NOT used here -- it would be far
 # too strict given the ~1:16 class imbalance and would understate recall
 # relative to your reported/validated test performance.
-BEST_MCC_THRESHOLD = 0.20213215
+BEST_MCC_THRESHOLD = 0.1963114495855318
 
 BASE_ATOMS = [
     "pool rank normalized",
