@@ -1,4 +1,4 @@
-sheet,amino acid number,amino acid,total (sasa),consurf,Concavity,pool rank normalized,PPrint Score
+sheet,amino acid number,amino acid,total (sasa),consurf,concavity,pool rank normalized,PPrint Score
 PROT_A,1,MET,45.2,3,0.12,0.55,-0.31
 PROT_A,2,LYS,88.7,5,0.45,0.71,0.12
 PROT_A,3,THR,12.4,2,0.05,0.30,-0.82
